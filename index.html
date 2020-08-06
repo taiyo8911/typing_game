@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>タイピングアプリWeb</title>
+  <link rel="stylesheet" href="sytle.css">
+</head>
+
+<body>
+  <h1><a href="">タイピングアプリ</a></h1>
+  <div class="rule">
+    <p>※単語の間は、スペースを入力してください！</p>
+    <p>スタートボタンで開始します。</p>
+  </div>
+  
+
+  <button onclick="this.disabled = true; startGame()">start</button>
+  <button onclick="window.location.reload(true)">end</button>
+
+  <p id="text"></p>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
