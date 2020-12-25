@@ -3,23 +3,27 @@
 
 <head>
   <meta charset="utf-8">
-  <title>タイピングアプリWeb</title>
+  <title>駆け出しエンジニアの為のタイピングゲーム</title>
   <link rel="stylesheet" href="sytle.css">
 </head>
 
 <body>
-  <h1><a href="">タイピングアプリ</a></h1>
-  <div class="rule">
-    <p>※単語の間は、スペースを入力してください！</p>
-    <p>スタートボタンで開始します。</p>
+  <div class="container">
+    <h1><a href="">駆け出しエンジニアの為のタイピングゲーム</a></h1>
+    <div class="description">
+      ・HTML、CSS、Javascriptで出てくるワードを勉強できる。<br>
+      ・ワードは随時更新中！<br>
+      ・スペースは必ず半角でお願いします。<br>
+      ・とりあえずやってみてください。
+    </div>
+
+    <div class="buttons">
+      <button onclick="this.disabled = true; startGame()">start</button>
+      <button onclick="window.location.reload(true)">end</button>
+    </div>
+
+    <p id="textArea"></p>
   </div>
-  
-
-  <button onclick="this.disabled = true; startGame()">start</button>
-  <button onclick="window.location.reload(true)">end</button>
-
-  <p id="text"></p>
-
   <script src="script.js"></script>
 </body>
 
