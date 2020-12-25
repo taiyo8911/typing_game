@@ -1,23 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+    width: 80%;
+    height: max-content;
+    background-color: bisque;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: x-large;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-weight: bold;
+    width: max-content;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    background-color: burlywood;
+    text-align: center;
+}
+
 button {
-    font-size: 30px;
+    font-size: 40px;
+    padding: 20px;
     border-radius: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 button:hover {
     cursor: pointer;
 }
 
-.rule{
-    border: solid 1px black;
-    width: fit-content;
-    background-color: khaki;
-    padding: 0 20px 0 20px;
-    margin-bottom: 20px;
-}
-
-#text {
-    margin-top: 50px;
-    font-size: 6em;
+#textArea {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 5em;
     font-weight: bold;
     color: #666;
     text-align: center;
@@ -34,13 +69,23 @@ span {
 
 .buruburu {
     display: inline-block;
-    animation: hurueru .1s  infinite;
+    animation: hurueru .1s infinite;
 }
 
 @keyframes hurueru {
-    0% {transform: translate(0px, 0px) rotateZ(0deg)}
-    25% {transform: translate(2px, 2px) rotateZ(1deg)}
-    50% {transform: translate(0px, 2px) rotateZ(0deg)}
-    75% {transform: translate(2px, 0px) rotateZ(-1deg)}
-    100% {transform: translate(0px, 0px) rotateZ(0deg)}
+    0% {
+        transform: translate(0px, 0px) rotateZ(0deg)
+    }
+    25% {
+        transform: translate(2px, 2px) rotateZ(1deg)
+    }
+    50% {
+        transform: translate(0px, 2px) rotateZ(0deg)
+    }
+    75% {
+        transform: translate(2px, 0px) rotateZ(-1deg)
+    }
+    100% {
+        transform: translate(0px, 0px) rotateZ(0deg)
+    }
 }
