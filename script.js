@@ -21,7 +21,8 @@ var textLists = [
     'var',
     'function',
     'document.getElementById',
-    'font-weight: bold;'
+    'font-weight: bold;',
+    'cursor: pointer;',
 ];
 
 var checkTexts = [];
@@ -59,7 +60,7 @@ function startGame() {
         //キーボードからの入力は「e.key」に格納されている
         if (e.key === checkTexts[0].textContent) {
             //入力が正しければ、文字色を変える（クラスを与える）
-            checkTexts[0].className = 'color';
+            checkTexts[0].className = 'changeColor';
 
             //0番目の配列要素を削除して、次の1文字を比較対象にする
             checkTexts.shift();
@@ -72,4 +73,8 @@ function startGame() {
             checkTexts[0].className = 'buruburu';
         }
     }
+}
+
+function about(){
+    alert('駆け出しエンジニアのタイピングゲームへようこそ！勉強の息抜きに楽しんでいってください。')
 }
