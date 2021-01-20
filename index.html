@@ -3,27 +3,37 @@
 
 <head>
   <meta charset="utf-8">
-  <title>駆け出しエンジニアの為のタイピングゲーム</title>
+  <title>駆け出しエンジニアのタイピングゲーム</title>
   <link rel="stylesheet" href="sytle.css">
 </head>
 
 <body>
+  <header>
+    <h1><a href="">駆け出しエンジニアのタイピングゲーム</a></h1>
+  </header>
+
+  <div class="description">
+    <button class="green"></button>ゲームスタート
+    <button class="yellow"></button>説明
+    <button class="red"></button>終了
+  </div>
+
   <div class="container">
-    <h1><a href="">駆け出しエンジニアの為のタイピングゲーム</a></h1>
-    <div class="description">
-      ・HTML、CSS、Javascriptで出てくるワードを勉強できる。<br>
-      ・ワードは随時更新中！<br>
-      ・スペースは必ず半角でお願いします。<br>
-      ・とりあえずやってみてください。
-    </div>
 
     <div class="buttons">
-      <button onclick="this.disabled = true; startGame()">start</button>
-      <button onclick="window.location.reload(true)">end</button>
+      <button class="red" onclick="window.location.reload(true)"></button>
+      <button class="yellow" onclick="about()"></button>
+      <button class="green" id="start" onclick="this.disabled = true; startGame()"></button>
+      <a href="" id="title">駆け出しエンジニアのタイピングゲーム</a>
     </div>
 
     <p id="textArea"></p>
   </div>
+
+  <footer>
+    &copy;<a href="https://taiyosite.com">TAIYO-BLOG</a>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 
