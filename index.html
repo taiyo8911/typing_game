@@ -13,9 +13,9 @@
   </header>
 
   <div class="description">
-    <button class="green"></button>ゲームスタート
-    <button class="yellow"></button>説明
-    <button class="red"></button>終了
+    <button class="green" onclick="this.disabled = true; startGame()"></button>ゲームスタート
+    <button class="yellow" onclick="about()"></button>説明
+    <button class="red" onclick="window.location.reload(true)"></button>終了
   </div>
 
   <div class="container">
