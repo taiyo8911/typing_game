@@ -1,28 +1,37 @@
 //表示するテキスト一覧
 var textLists = [
-    'div class="container"',
     '!doctype html',
     'meta charset="utf-8',
+    'title',
     'link rel="stylesheet"',
-    'button onclick=',
-    'script src=',
-    'background-color: green;',
-    'margin: 50px;',
-    'padding: 10px',
-    'width: 960px;',
-    'height: 30px;',
-    'text-decoration: none;',
-    'font-size: 20px;',
-    'text-align: center;',
-    'button:hover',
-    'cursor: pointer;',
-    'color: red;',
-    'display: inline-block;',
-    'var',
-    'function',
-    'document.getElementById',
-    'font-weight: bold;',
-    'cursor: pointer;',
+    'div',
+    'span',
+    'h1',
+    'p',
+    'img',
+    'input',
+    'textarea',
+    'color',
+    'font-size',
+    'font-family',
+    'background-color',
+    'width',
+    'height',
+    'list-style',
+    'float',
+    'padding',
+    'margin',
+    'border',
+
+    // 'button onclick=',
+    // 'text-decoration: none;',
+    // 'text-align: center;',
+    // 'button:hover',
+    // 'cursor: pointer;',
+    // 'display: inline-block;',
+    // 'font-weight: bold;',
+    // 'script src=',
+
 ];
 
 var checkTexts = [];
@@ -76,5 +85,5 @@ function startGame() {
 }
 
 function about(){
-    alert('駆け出しエンジニアのタイピングゲームへようこそ！勉強の息抜きに楽しんでいってください。')
+    alert('駆け出しエンジニアのタイピングゲームへようこそ！プログラミング学習の息抜きに楽しんでいってください。')
 }
