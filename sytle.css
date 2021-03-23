@@ -47,11 +47,14 @@ a {
     margin-bottom: 15px;
 }
 
-.network{
+.twitter{
     width: max-content;
-    display: flex;
     margin: 0 auto;
-    margin-bottom: 30px;
+}
+
+.ads{
+    width: max-content;
+    margin: 0 auto;
 }
 
 .buttons {
