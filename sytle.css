@@ -36,25 +36,16 @@ a {
     margin: 0 auto;
 }
 
+.twitter-btn{
+    width: max-content;
+    margin: 0 auto;
+}
+
 .description {
     font-weight: bold;
     width: max-content;
     margin: 0 auto;
     margin-bottom: 20px;
-}
-
-.description p {
-    margin-bottom: 15px;
-}
-
-.twitter{
-    width: max-content;
-    margin: 0 auto;
-}
-
-.ads{
-    width: max-content;
-    margin: 0 auto;
 }
 
 .buttons {
@@ -85,7 +76,6 @@ a {
 
 #title {
     color: black;
-    cursor: default;
     margin-left: 90px;
     cursor: pointer;
 }
