@@ -1,9 +1,9 @@
 //表示するテキスト一覧
 var textLists = [
     '!doctype html',
-    'meta charset="utf-8"',
+    'meta charset',
     'title',
-    'link rel="stylesheet"',
+    'link rel',
     'div',
     'span',
     'h1',
